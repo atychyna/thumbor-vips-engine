@@ -16,12 +16,12 @@ from thumbor.engines import BaseEngine
 from thumbor.point import FocalPoint
 
 FORMATS = {
-    ".tif": "PNG",  # serve tif as png
+    ".tif": ".PNG",  # serve tif as png
     ".jpg": ".JPEG",
     ".jpeg": ".JPEG",
-    ".gif": "GIF",
-    ".png": "PNG",
-    ".webp": "WEBP",
+    ".gif": ".GIF",
+    ".png": ".PNG",
+    ".webp": ".WEBP",
 }
 
 
